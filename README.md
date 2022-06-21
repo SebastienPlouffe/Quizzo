@@ -1,1 +1,1 @@
-# Quizzo
+# Quizzo a quiz game about JavaScript!
