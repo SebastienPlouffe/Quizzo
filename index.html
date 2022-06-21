@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qizzo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body id = "page-content">
+    <header>
+        <h1>Quizzo!</h1>
+    </header>
+   
+<section class="firstDisplay" id="beforeQuiz">
+        <section>
+        <h2>Welcome to Quizzo!</h2>
+        </section>
+
+        <section>
+        <p>
+            Your goal is to answer all of these questions as fast as 
+            possible! But be aware, if you answer a question wrong, 10 
+            seconds will be deducted from the timer. 
+            <br><strong>Are you ready to start?</strong>
+        </p>
+        </section>
+
+        <section>
+        <button id="starterBtn">Start</button>
+        </section>
+</section>
+    
+
+   
+    
+<section id = "quiz" class="secondHidden">
+    <!--TIMER-->
+        <section>
+            <h2 id = "timer"></h2>
+        </section>
+        <!--QESTION-->
+        <section >
+            <h2 id = "question"></h2>
+        </section>
+
+        <!--ANSWERS-->
+        <section id="answers" class="firstAnswers">
+            <div>
+                <button id = "answer1"></button>
+            </div>
+            <div>
+                <button id = "answer2"></button>
+            </div>
+            <div>
+                <button id = "answer3"></button>
+            </div>
+            <div>
+                <button id = "answer4" class="answer4"></button>
+            </div>
+        </section>
+
+        <section id="answers2" class="secondHidden">
+            <div>
+                <button id = "answer5"></button>
+            </div>
+            <div>
+                <button id = "answer6"></button>
+            </div>
+            <div>
+                <button id = "answer7"></button>
+            </div>
+            <div>
+                <button id = "answer8" class="answer4"></button>
+            </div>
+        </section>
+
+    
+</section>
+
+<section id="scoreboard" class="third">
+    <h2 id="score"></h2>
+</section>
+
+    
+
+    <script src="./assets/js/java.js"></script>
+</body>
+</html>

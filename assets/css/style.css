@@ -1,0 +1,35 @@
+body {
+    
+    text-align: center;
+}
+
+.firstDisplay {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.firstDisplay p {
+    margin: 10px auto;
+    width: 300px;
+    font-size: 20px;
+}
+
+.firstHidden {
+    display: none;
+}
+
+#starter-Btn {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.secondHidden {
+    display: none;
+}
+
+.secondDisplay {
+    display:block
+}
+
